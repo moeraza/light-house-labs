@@ -15,5 +15,6 @@
 - [SELECT Queries Order of Execution](https://sqlbolt.com/lesson/select_queries_order_of_execution)
 - [SQL Joins Visualizer](https://sql-joins.leopard.in.ua/)
 - [Learn the basics @ W3 Schools](https://www.w3schools.com/sql/default.asp)
+- [ER Diagram Notation](https://www.guru99.com/er-diagram-tutorial-dbms.html)
 - [Today's Slides](https://docs.google.com/presentation/d/1dvSo5oY5Pk3LfSEJQdKkDXTAjNDiDvPP0qFRsfhE24s/edit?usp=sharing)
 
