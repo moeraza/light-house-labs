@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-base_url = 'http://127.0.0.1:3000/' #base url local host
+base_url = 'http://127.0.0.1:5000/' #base url local host
 # base_url = 'http://ec2-18-236-238-163.us-west-2.compute.amazonaws.com:5000/'
 # base_url = 'http://ec2-15-222-44-172.ca-central-1.compute.amazonaws.com:8888/'
 
@@ -31,9 +31,9 @@ test = json.loads(test)
 
 
 # Get Response
-response = r.get(base_url + 'helloworld')
-# response = r.post(base_url + "predict", json = json_data)
-# response = r.post(base_url + "predict", json = test)
+# response = r.get(base_url + 'helloworld')
+response = r.post(base_url + "predict", json = json_data)
+response = r.post(base_url + "predict/batch", json = test)
 
 if response.status_code == 200:
     print('...')
